@@ -1,5 +1,9 @@
 # Steins-Gate-PC-Text-to-PSP
 Steins Gate PC script to PSP
+
+
+
+
 The programs your need are :
 PuyoTools (AFS Explorer)
 AFSExplorer (To increase the reserved size of the AFS to be able to contain the modified script file.)
