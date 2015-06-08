@@ -12,6 +12,10 @@ PuyoTools (AFS Explorer)
 
 AFSExplorer (To increase the reserved size of the AFS to be able to contain the modified script file.)
 
+
+UMDGen (To pack the DATA0.AFS back into the iso or cso)
+
+
 How to compress SCENEXX_XX.BIN:
 in a command prompt use this command with 7za.exe:
 
