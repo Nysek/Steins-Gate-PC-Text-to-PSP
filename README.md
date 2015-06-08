@@ -4,7 +4,7 @@ Steins Gate PC script to PSP
 
 
 
-The programs your need are :
+The programs you will need are :
 
 
 PuyoTools (AFS Explorer)
