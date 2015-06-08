@@ -10,131 +10,131 @@
 <END2>
 
 #WRITE(PTR, $000001F0)
-Ｃｈａｐｔｅｒ１　【時間跳躍のパラノイア】
-<END>
+Ｃｈａｐｔｅｒ１　【Time Travel Paranoia】
+<END2>
 
 #WRITE(PTR, $000001F6)
 %L1
 <END2>
 
 #WRITE(PTR, $0000034E)
-【倫太郎】「おい、そこの貴様。俺たちが見えているか？」
+"Hey, you. Can you see us?"
 <END>
 
 #WRITE(PTR, $0000035E)
-【倫太郎】「……なぜなにも答えない。貴様に聞いているんだぞ？　モニタのそっち側にいる、貴様にだ」
+"Why won't you answer? I'm asking you a question, Yes, you on the other side of the monitor."
 <END>
 
 #WRITE(PTR, $0000036E)
-【倫太郎】「ふん。間抜け面をしおって。つまらんヤツだ」
+"Hmph. Your silence only strengthens my hypothesis."
 <END>
 
 #WRITE(PTR, $0000037E)
-【倫太郎】「貴様からだと、俺たちはテレビのモニタの中にいるように見えるだろうな。ククク、だがそれは大きな間違いだ」
+"I suppose that, from your perspective, it appears that we <LINE>are the ones inside the monitor. Heh heh heh, but that's<LINE> where you're wrong!"
 <END>
 
 #WRITE(PTR, $0000038E)
-【倫太郎】「モニタの中にいるのは貴様なのだよ。貴様が現実だと思っているその世界は、実はすべて虚構。もちろん貴様自身もな」
+"For it is you who are inside! Your Reality is nothing but lies and shadows. Naturally, that includes you, too."
 <END>
 
 #WRITE(PTR, $0000039E)
-【倫太郎】「真の現実、それはこちら側にある」
+"True reality is on this side of the screen."
 <END>
 
 #WRITE(PTR, $000003AE)
-【倫太郎】「自分がなにを指摘されているのかすら分かっていないか。無理もない」
+"Don't believe me? I don't blame you. Few are those who can handle the truth."
 <END>
 
 #WRITE(PTR, $000003BE)
-【倫太郎】「まあいい。貴様には分かりやすく、俺たちのことについて説明してやろうではないか」
+"But no matter. I shall speak in simpler terms, easy enough for even you to understand."
 <END>
 
 #WRITE(PTR, $000003CE)
-【倫太郎】「まず、俺たちがいるのはどこかということだ」
+「まず、俺たちがいるのはどこかということだ」
 <END>
 
 #WRITE(PTR, $000003DE)
-【倫太郎】「ここは東京、秋葉原にある、未来ガジェット研究所だ。俺たちは普段“ラボ”と呼んでいる。世界の支配構造を作り替えるという我が野望の拠点だな」
+"This is the Future Gadget Laboratory, located in the Akihara district of Tokyo. We call it simply... the lab. Our purpose is to shatter the system and plunge the world into chaos."
 <END>
 
 #WRITE(PTR, $000003EE)
-【まゆり】「そうなんだー。悪いことしちゃダメなんだよ、オカリン」
+"Really? You shouldn't do bad things, Okarin."
 <END>
 
 #WRITE(PTR, $000003FE)
-【倫太郎】「まゆりは少し黙っていろ」
+"Quiet. I'm a mad scientist, remember?"
 <END>
 
 #WRITE(PTR, $0000040E)
-【倫太郎】「駅から出たら中央通りを進み、末広町駅の交差点を蔵前橋通りへ左折」
+"From the station, head down Chou-dori until you reach Suehirocho Station, In the alley before the traffic light, you'll find the run-down Ohiyama Building. <LINE>The lab is on the second floor."
 <END>
 
 #WRITE(PTR, $0000041E)
-【倫太郎】「次の信号の一歩手前の路地を入ると、大檜山ビルという古くさい雑居ビルがある。その２階に我がラボは居を構えている」
+「次の信号の一歩手前の路地を入ると、大檜山ビルという古くさい雑居ビルがある。その２階に我がラボは居を構えている」
 <END>
 
 #WRITE(PTR, $0000042E)
-【倫太郎】「目印は、ビル１階にある『ブラウン管工房』というマニアックなテナントだな」
+"On the first floor is a store of ill repute called the Braun Tube Workshop. You can't miss it."
 <END>
 
 #WRITE(PTR, $0000043E)
-【倫太郎】「今どき、旧式のブラウン管テレビだけを扱っているショップだ。いかに電気街である秋葉原と言えども需要があるとは思えない、寂れた店なのだ」
+"It deals exclusively in CRT monitors, of all things. Can you imagine? Even in the heart of Akihabara's Electric Town, the demand for CRT's is practically nonexistent."
 <END>
 
 #WRITE(PTR, $0000044E)
-【倫太郎】「だが『ブラウン管工房』店長である{天王寺}[てんのうじ]というおっさんは、このビルのオーナーでもある」
+「だが『ブラウン管工房』店長である{天王寺}[てんのうじ]というおっさんは、このビルのオーナーでもある」
 <END>
 
 #WRITE(PTR, $0000045E)
-【倫太郎】「故に、今や急ピッチで都市開発が進み、地価も高騰してるこの秋葉原であろうと、道楽丸出しの店を構えていられるというわけだ」
+「故に、今や急ピッチで都市開発が進み、地価も高騰してるこの秋葉原であろうと、道楽丸出しの店を構えていられるというわけだ」
 <END>
 
 #WRITE(PTR, $0000046E)
-【倫太郎】「幸いにもあの店長は、人を見る目はあるようでな。この俺のカリスマ性を見抜き、ビル２階をまるまるワンフロア、タダ同然で貸してくれたのだ。フゥーハハハ！」
+「幸いにもあの店長は、人を見る目はあるようでな。この俺のカリスマ性を見抜き、ビル２階をまるまるワンフロア、タダ同然で貸してくれたのだ。フゥーハハハ！」
 <END>
 
 #WRITE(PTR, $0000047E)
-【倫太郎】「だが未来ガジェット研究所は深刻な人材不足のため、優秀な研究員を随時募集中だ。今のところ、所属研究員は├┤」
+「だが未来ガジェット研究所は深刻な人材不足のため、優秀な研究員を随時募集中だ。今のところ、所属研究員は├┤」
 <END>
 
 #WRITE(PTR, $0000048E)
-【まゆり】「オカリンオカリン、そこは“ラボメン”って言わなきゃー。所属研究員じゃなくて」
+「オカリンオカリン、そこは“ラボメン”って言わなきゃー。所属研究員じゃなくて」
 <END>
 
 #WRITE(PTR, $0000049E)
-【倫太郎】「……ラボメン、すなわちラボラトリーメンバーは、俺を含めて３人である」
+「……ラボメン、すなわちラボラトリーメンバーは、俺を含めて３人である」
 <END>
 
 #WRITE(PTR, $000004AE)
-【倫太郎】「ラボメンナンバー００１、ラボ創設者にして狂気のマッドサイエンティストであるこの俺、鳳凰院凶真」
+"I am the founder of the Future Gadget Lab, Lab Mem Number 001, the insane mad scientist, Hououin Kyouma!"
 <END>
 
 #WRITE(PTR, $000004BE)
-【まゆり】「オカリンって呼び方の方がかわいいのにー」
+「オカリンって呼び方の方がかわいいのにー」
 <END>
 
 #WRITE(PTR, $000004D6)
-【倫太郎】「そして%B1Sコスプレ%B1Eが趣味の紅一点、ラボメンナンバー００２、椎名まゆり」
-<END>
+"Next we have our resident Cosplayer and only female member, Lab Mem Number 002, Shiina Mayuri."
+<END2>
 
 #WRITE(PTR, $000004E6)
-【まゆり】「トゥットゥルー♪　まゆしぃでーす。着るんじゃなくて作るのが趣味だよ」
+"Tutturu♪　Call me Mayushii! I like making costumes more than wearing them."
 <END>
 
 #WRITE(PTR, $000004DE)
-【倫太郎】「最後に%B1Sスーパーハカー%B1E、ラボメンナンバー００３、{橋田}[はしだ]{至}[いたる]だ」
+"And last we have our resident %B1SSuper Hacka%B1E、Lab Mem Number 003, Hashida Itaru."
 <END>
 
 #WRITE(PTR, $00000516)
-【至】「スーパーハカーって呼ぶなよぅ。スーパーハッカーだろ%B1S常考%B1E」
+"Stop calling me that! It's super%B1Shacker%B1E, duh.」
 <END>
 
 #WRITE(PTR, $00000526)
-【倫太郎】「そんな我々３人で構成される未来ガジェット研究所の活動内容は、そのものずばり“発明”である」
+「そんな我々３人で構成される未来ガジェット研究所の活動内容は、そのものずばり“発明”である」
 <END>
 
 #WRITE(PTR, $00000536)
-【倫太郎】「詳細は我がラボのホームページを見てくれ」
+"For details, see our lab's homepage."
 <END>
 
 #WRITE(PTR, $00000546)
@@ -443,4 +443,4 @@
 
 #WRITE(PTR, $000011D0)
 自然と脳裏に浮かんできたのは、１時間前に見た超常的な光景だった├┤
-<SG00_01END>
+<SG01_01END>
