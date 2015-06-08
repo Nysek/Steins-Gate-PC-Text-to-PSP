@@ -19,8 +19,14 @@ in a command prompt use this command with 7za.exe:
 @pause
 
  a | Add files to archive
+
+
 -y | Assume yes to all queries
+
+
 Tmp2.dat | is the file you want to name the comprresed archive
+
+
 SG01_01.BIN | is the file your going to compress
 
 - 2015 Nysek
