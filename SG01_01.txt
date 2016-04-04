@@ -1,8 +1,8 @@
-#VAR(Table, TABLE)
+﻿#VAR(Table, TABLE)
 #ADDTBL("data\shiftjis.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR",0, 32)
 #JMP($0000138E)
 
 #WRITE(PTR, $000001EA)
@@ -18,7 +18,7 @@
 <END2>
 
 #WRITE(PTR, $0000034E)
-"Hey, you. Can you see us?"
+Hey, you. Can you see us?"
 <END>
 
 #WRITE(PTR, $0000035E)
@@ -50,11 +50,11 @@
 <END>
 
 #WRITE(PTR, $000003CE)
-「まず、俺たちがいるのはどこかということだ」
+"まず、俺たちがいるのはどこかということだ"
 <END>
 
 #WRITE(PTR, $000003DE)
-"This is the Future Gadget Laboratory, located in the Akihara district of Tokyo. We call it simply... the lab. Our purpose is to shatter the system and plunge the world into chaos."
+"This is the Future Gadget Laboratory, located in the<LINE>Akihara district of Tokyo. We call it simply... the lab. Our purpose"
 <END>
 
 #WRITE(PTR, $000003EE)
@@ -66,71 +66,70 @@
 <END>
 
 #WRITE(PTR, $0000040E)
-"From the station, head down Chou-dori until you reach Suehirocho Station, In the alley before the traffic light, you'll find the run-down Ohiyama Building. <LINE>The lab is on the second floor."
+"From the station, head down Chuo-dori until you reach<LINE.Suehirocho Station, then take a left onto Kuramaebashi-dori.<LINE>In the alley before the traffic light"
 <END>
 
 #WRITE(PTR, $0000041E)
-「次の信号の一歩手前の路地を入ると、大檜山ビルという古くさい雑居ビルがある。その２階に我がラボは居を構えている」
+"You'll find the Ohiyama Building. The lab is on the second floor."
 <END>
 
 #WRITE(PTR, $0000042E)
-"On the first floor is a store of ill repute called the Braun Tube Workshop. You can't miss it."
+"On the first floor is a store of ill repute called the<LINE>Braun Tube Workshop. You can't miss it."
 <END>
 
 #WRITE(PTR, $0000043E)
-"It deals exclusively in CRT monitors, of all things. Can you imagine? Even in the heart of Akihabara's Electric Town, the demand for CRT's is practically nonexistent."
+"It deals exclusively in CRT monitors, of all things. Can you<LINE>imagine? Even in the heart of Akihabara's Electric Town, >the demand for CRTs is practically nonexistene."
 <END>
 
 #WRITE(PTR, $0000044E)
-「だが『ブラウン管工房』店長である{天王寺}[てんのうじ]というおっさんは、このビルのオーナーでもある」
+"But the proprietor of the Braun Tube Workshop, Tennouji,<LINE>is also the owner of the building."
 <END>
 
 #WRITE(PTR, $0000045E)
-「故に、今や急ピッチで都市開発が進み、地価も高騰してるこの秋葉原であろうと、道楽丸出しの店を構えていられるというわけだ」
+"That's how he can afford to maintain his ridiculously<LINE>niche hobby shop even as land value continues to rise."
 <END>
 
 #WRITE(PTR, $0000046E)
-「幸いにもあの店長は、人を見る目はあるようでな。この俺のカリスマ性を見抜き、ビル２階をまるまるワンフロア、タダ同然で貸してくれたのだ。フゥーハハハ！」
+He may seem a rough sort. but he was no match for my<LINE>charisma. Now the entire second floor is mine for next to<LINE>nothing. Muhahaha! "
 <END>
 
 #WRITE(PTR, $0000047E)
-「だが未来ガジェット研究所は深刻な人材不足のため、優秀な研究員を随時募集中だ。今のところ、所属研究員は├┤」
+"I digress. The future Gadget Labortaory is currently<LINE>experiencing a severe shortage of manpower. We welcome dedicated scientists from all fields to apply. At present, our researchers are--"
 <END>
 
 #WRITE(PTR, $0000048E)
-「オカリンオカリン、そこは“ラボメン”って言わなきゃー。所属研究員じゃなくて」
+"Okarin, Okarin. You've gotta say 'lab mems', not<LINE>researchers."
 <END>
 
 #WRITE(PTR, $0000049E)
-「……ラボメン、すなわちラボラトリーメンバーは、俺を含めて３人である」
+"...Our lab mems -- labortaory members -- are three!"
 <END>
 
 #WRITE(PTR, $000004AE)
-"I am the founder of the Future Gadget Lab, Lab Mem Number 001, the insane mad scientist, Hououin Kyouma!"
+"I am the founder of the Future Gadget Lab, Lab Mem<LINE>Number zero zero one, the insane mad scientist, Hououin Kyouma!"
 <END>
 
 #WRITE(PTR, $000004BE)
-「オカリンって呼び方の方がかわいいのにー」
+"Okarin' is cuter, though..."
 <END>
 
 #WRITE(PTR, $000004D6)
-"Next we have our resident Cosplayer and only female member, Lab Mem Number 002, Shiina Mayuri."
-<END2>
+"Next we have our resident Cosplayer and only female<LINE>member, Lab Mem Number zero zero two, Shiina Mayuri."<END>
 
 #WRITE(PTR, $000004E6)
-"Tutturu♪　Call me Mayushii! I like making costumes more than wearing them."
+"Tutturu!　Call me Mayushii! I like making costumes more than wearing them."
 <END>
 
 #WRITE(PTR, $000004DE)
-"And last we have our resident %B1SSuper Hacka%B1E、Lab Mem Number 003, Hashida Itaru."
+"And last we have our resident %B1Super Hacka%B1E、<LINE>Lab Mem Number Zero Zero Three, Hashida Itaru."
 <END>
 
 #WRITE(PTR, $00000516)
-"Stop calling me that! It's super%B1Shacker%B1E, duh.」
+"Stop calling me that! It's super%B1Shacker%B1E, duh."
 <END>
 
 #WRITE(PTR, $00000526)
-「そんな我々３人で構成される未来ガジェット研究所の活動内容は、そのものずばり“発明”である」
+"Here at the Future Gadget Laboratory, we devote ourselves to the art of invention!"
 <END>
 
 #WRITE(PTR, $00000536)
@@ -138,167 +137,167 @@
 <END>
 
 #WRITE(PTR, $00000546)
-【倫太郎】「もちろん闇の支配権力と戦うための未来ガジェットが最優先事項だが、その研究から派生する副産物的な発明も多い。というか今のところはそっちばかりだ」
+【倫太郎】"Our top priority, of course, is to develop weapons for the war<LINE>with the Dark Dominion, but that research has spawned a number of offshoot inventions. In fact, that's all it's ever spawned."
 <END>
 
 #WRITE(PTR, $00000556)
-【倫太郎】「すでに我々は８つの未来ガジェットを完成させた。だがこれはまだ序章でしかない。未来ガジェットのアイデアは、俺の中に１０８まであるのだ」
+【倫太郎】"Our arsenal of Future Gadgets is up to eight,<LINE>but this is just the beginning. I have a total of One hundred and eight inventions to create!"
 <END>
 
 #WRITE(PTR, $00000566)
-【至】「某テニスマンガみたいにですね、分かります」
+【至】"Like in that tennis manga, right? I get it."
 <END>
 
 #WRITE(PTR, $0000057E)
-【倫太郎】「人の煩悩の数と言え、この%B1S＠ちゃんねる%B1E脳め」
+【倫太郎】"No! It's the number of earthly desires in mortals, you at channel junkie."
 <END>
 
 #WRITE(PTR, $0000058E)
-【倫太郎】「それと、俺が話しているのだから口出しをするなと言っているだろう」
+【倫太郎】"And I thought I told you not to interrupt me when I'm talking!"
 <END>
 
 #WRITE(PTR, $0000059E)
-【至】「そもそもオカリン、さっきからなんで独り言喋ってんの？」
+【至】"Yeah, wouldn't want to interrupt you talking to yourself."
 <END>
 
 #WRITE(PTR, $000005AE)
-【倫太郎】「独り言ではない。見て分からないのか。俺は今、モニタの向こうにいるこいつに話しかけているのだ」
+【倫太郎】"I'm not talking to myself. Can't you see? I'm talking to the person behind the monitor."
 <END>
 
 #WRITE(PTR, $000005BE)
-【まゆり】「あ、今その人、ニヤリって笑ったー」
+【まゆり】"Ah, he just grinned!"
 <END>
 
 #WRITE(PTR, $000005CE)
-【倫太郎】「おのれ貴様、なにを笑っているのか！　モニタの中の存在のくせに！」
+【倫太郎】"What are you grinning about, damn you!?<LINE>You don't even exist outside that monitor!"
 <END>
 
 #WRITE(PTR, $000005E6)
-【至】「%B1Sこっち見んな%B1E、って言ってやれば？」
+【至】"Just say %B1S'don't look at me'%B1E."
 <END>
 
 #WRITE(PTR, $000005F6)
-【まゆり】「通じないんじゃないかなー？」
+【まゆり】"I don't think that's gonna work..."
 <END>
 
 #WRITE(PTR, $00000606)
-【倫太郎】「俺たちに話しかけられていることにすら、気付いていないらしいな。自覚がないというのは、実に不幸なことだ」
+【倫太郎】"It appears our attempts to communicate have failed.<LINE>It's sad to see someone se deeply in denial of reality."
 <END>
 
 #WRITE(PTR, $00000616)
-【まゆり】「その人にしてみたら、まゆしぃたちがゲームみたいに見えてるのかなー？」
+【まゆり】"Maybe they think we're in the game?"
 <END>
 
 #WRITE(PTR, $00000626)
-【至】「そいつには、現実なのかゲームなのかっていう発想さえないんじゃね？」
+【至】"I doubt it's even occurred to them."
 <END>
 
 #WRITE(PTR, $0000063E)
-【まゆり】「んじゃ、ダルくんの大好きな%B1S２次元の女の子%B1Eたちもそうなのー？」
+【まゆり】"But aren't your%B1S2D girlfriends%B1E the same way?"
 <END>
 
 #WRITE(PTR, $0000064E)
-【至】「それは別。あの子たちは僕の嫁だから」
+【至】"That's different. Those girls are my wives."
 <END>
 
 #WRITE(PTR, $0000065E)
-【倫太郎】「ダルの嫁の話はどうでもいい」
+【倫太郎】"Nobody cares about your harem."
 <END>
 
 #WRITE(PTR, $0000066E)
-【至】「でもさ、まゆ氏の言ったことって興味深いテーマじゃん。もし仮に僕たちがゲームの中の住人だとしたら、それを見極める術はあると思う？」
+【至】"But Mayushii touched upon a very interesting theme, ya know?<LINE>What if we're actually just characters in a game? Any way we can know for sure?"
 <END>
 
 #WRITE(PTR, $0000067E)
-【倫太郎】「ないな」
+【倫太郎】"No."
 <END>
 
 #WRITE(PTR, $0000068E)
-【至】「即答かよ」
+【至】"Come on!"
 <END>
 
 #WRITE(PTR, $0000069E)
-【倫太郎】「故に、そのような議論は不毛。世界の支配構造を打ち砕く方法について考える方が、よほど有意義だ」
+【倫太郎】"Such questions are meaningless.<LINEW>Our time is better spent thinking of ways to destroy the System."
 <END>
 
 #WRITE(PTR, $000006B8)
-【至】「%B1S{厨二病}[ちゅうにびょう]%B1E %B2S{乙}[おつ]%B2E」
+【至】"Nice %B1Schuunibyou%B1E, bro."
 <END>
 
 #WRITE(PTR, $00000734)
-ダルの言葉に、俺はのぞき込んでいたモニタから顔を上げた。
+I step back from the monitor.。
 <END>
 
 #WRITE(PTR, $00000790)
-モニタには、%B1Sアルパカ%B1Eをモチーフにしてデザインされた『アルパカマン』というキモカワイイキャラクターがたたずんでいる。
+Displayed on the screen is the uglycute %B1SAlpacaman%B1E.
 <END>
 
 #WRITE(PTR, $000007A0)
-付属のマイクで話しかけると返事をしてくれる『アルパカマン２』というインタラクティブゲームだ。
+This is a game called 'Alpacaman Two', where you speak to Alpacaman via<LINE>microphone and watch him react。
 <END>
 
 #WRITE(PTR, $000007B0)
-１０年ほどまえの発売当時は爆発的に流行ったものだが、俺からしてみればキモカワイイというより単純に気持ち悪い。
+The game exploded in popularity when it was released Ten years ago,<LINE>but personally, I find only the "ugly" part of "uglycute" to be true.
 <END>
 
 #WRITE(PTR, $000007C0)
-ヘッドセットを含めて中古で５００円だったので、昨日買ってきた。
+I bought it yesterday. Five Hundred Yen used. Headset included.
 <END>
 
 #WRITE(PTR, $00000864)
-俺はダルの方を振り返り、威圧感を与えるように目を細めた。
+俺I turn to Daru menacing glare.
 <END>
 
 #WRITE(PTR, $00000874)
-【倫太郎】「黙れスーパーハカー。俺は厨二病ではない」
+【倫太郎】"Shut it. hacka. I'm no chuunibyou patient."
 <END>
 
 #WRITE(PTR, $00000884)
-ここで前髪をわざとらしくかき上げ、少し言葉をタメる。
+I sweep my hair back and flash a devilish grin.
 <END>
 
 #WRITE(PTR, $00000894)
-【倫太郎】「鳳凰院……凶真だっ！」
+【倫太郎】"I am Hououin... Kyouma!"
 <END>
 
 #WRITE(PTR, $000008AE)
-【至】「そういう“設定”っしょ？」
+【至】"That's your character's name, right?"
 <END>
 
 #WRITE(PTR, $000008BE)
-【倫太郎】「やれやれ。ダルの、人とのコミュニケーションの取れなさは、どれだけ経っても治らないな」
+【倫太郎】"Oh, Daru... your communication skills are beyond repair."
 <END>
 
 #WRITE(PTR, $000008D6)
-【至】「アニメの%B1Sオフ会%B1Eじゃ、僕がいつも場を盛り上げてるっつーの」
+【至】"I'll have you know I go to a ton of%B1Soffline meets%B1E,<LINE>and I'm always the life of the party."
 <END>
 
 #WRITE(PTR, $00000974)
-偏屈そうなメガネデブ男、俺の戦友にして片腕である橋田至。通称はダル。
+This fat, bespectacled guy is my brother-in-arms and right-hand man,<LINE>Hashida Itaru. Nickname: Daru.
 <END>
 
 #WRITE(PTR, $00000984)
-日がな１日、だるそうにＰＣに向かっているオタク青年である。
+He's a harcore otaku. You can always find him in front of the computer,<LINE>playing games and watching anime.
 <END>
 
 #WRITE(PTR, $00000994)
-２次元の嫁を持ちながら３次元メイドに浮気するなど、趣味の方向性に多少難ありだが。萌え関連ならばなんでもいいらしい。
+He has 2D wives on whom he cheats with 3D maids. I don't agree with his prefences,<LINE>but to him, anything's fine as long as it's moe.
 <END>
 
 #WRITE(PTR, $000009A4)
-腕は確かで、ハードウェアよりソフトウェアの方が得意だとうそぶきつつも、俺のアイデアを実際に形にしてくれる非常に頼りになる男である。
+He's reliable and skilled partner who brings my ideas to fruition.<LINE>Despite his insitence that software is his forte,<LINE>he shows remarkable aptiude with hardware as well.
 <END>
 
 #WRITE(PTR, $00000A08)
-【まゆり】「あう……。針、指に刺さった……」
+【まゆり】"Ow.. the needle bit my finger..."
 <END>
 
 #WRITE(PTR, $00000B46)
-一方、涙目になって自分の指を舐めている椎名まゆり１６歳。泣く子も黙る女子高生。
+Over here , nursing a pricked finger, we have Shiina Mayuri. A Sixth-teen-year-old high school student,<LINE>if you can believe it. I've know her since we were both small.
 <END>
 
 #WRITE(PTR, $00000B56)
-一応こいつもオタクだ。濃さで言えばダルよりも大幅に劣るが。
+She's also an otaku. Nowhere near Daru's level, though.
 <END>
 
 #WRITE(PTR, $00000B66)
@@ -334,7 +333,7 @@
 <END>
 
 #WRITE(PTR, $00000C94)
-【まゆり】「まゆしぃはオカリンの人質だから、ここにいようと思いまーす」
+【まゆり】"まゆしぃはオカリンの人質だから、ここにいようと思いまーす"
 <END>
 
 #WRITE(PTR, $00000D1A)
@@ -358,11 +357,11 @@
 <END>
 
 #WRITE(PTR, $00000DBE)
-【至】「で、オカリン。アルパカマンは反応したん？」
+【至】"で、オカリン。アルパカマンは反応したん？"
 <END>
 
 #WRITE(PTR, $00000E62)
-【倫太郎】「いや、全然」
+【倫太郎】"いや、全然"
 <END>
 
 #WRITE(PTR, $00000EBE)
@@ -382,7 +381,7 @@
 <END>
 
 #WRITE(PTR, $00000F2E)
-【倫太郎】「この無愛想アルパカめが」
+【倫太郎】"この無愛想アルパカめが"
 <END>
 
 #WRITE(PTR, $00000F3E)
@@ -394,7 +393,7 @@
 <END>
 
 #WRITE(PTR, $00000F6A)
-【倫太郎】「ん？」
+【倫太郎】"ん？"
 <END>
 
 #WRITE(PTR, $00000F7A)
@@ -422,11 +421,11 @@
 <END>
 
 #WRITE(PTR, $00001018)
-【まゆり】「きっとね、アルパカさんが、怒っちゃったんだよー」
+【まゆり】"きっとね、アルパカさんが、怒っちゃったんだよー"
 <END>
 
 #WRITE(PTR, $00001028)
-【倫太郎】「くっ。後で修理できるか聞きに行かなければ」
+【倫太郎】"くっ。後で修理できるか聞きに行かなければ"
 <END>
 
 #WRITE(PTR, $00001044)
