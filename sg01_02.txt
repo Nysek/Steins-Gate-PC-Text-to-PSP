@@ -1,0 +1,457 @@
+﻿#VAR(Table, TABLE)
+#ADDTBL("data\shiftjis.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 32)
+#JMP($00001875)
+
+#WRITE(PTR, $000007F2)
+"They're gone..."
+<END>
+
+#WRITE(PTR, $00000802)
+As I left Radio Kaikan, everyone vanished before my eyes. I can't explain it.
+<END>
+
+#WRITE(PTR, $00000812)
+And it wasn't just the people on the street.
+<END>
+
+#WRITE(PTR, $00000822)
+The people in the stores, gone. In the restaurants,<LINE>gone. Even cars vanished, drivers and all.
+<END>
+
+#WRITE(PTR, $00000832) // crashes at this point, while trying to go to the next line.
+And it all happened in the blink of an eye.
+<END2>
+
+#WRITE(PTR, $00000842)
+Suddenly, an empty city spread before me.
+<END>
+
+#WRITE(PTR, $00000852)----There is text here
+I could still hear the music from the stores, but those catchy<LINE>melodies were the only sounds of life remaining.
+<END>
+
+#WRITE(PTR, $00000862)
+Heat was rising from the aspahlt in waves, but I felt<LINE>only a cold chill down my spine.
+<END>
+
+#WRITE(PTR, $00000872)
+I just stood there, breathless, until├┤
+<END>
+
+#WRITE(PTR, $00000882)
+"What's wrong?"
+<END>
+
+#WRITE(PTR, $00000892)
+Mayuri's voice brought me back to reality.
+<END>
+
+#WRITE(PTR, $000008A2)
+Mayuri hadn't disappeared.
+<END>
+
+#WRITE(PTR, $00000956)
+She was there, looking at me with<LINE>questioning eyes.
+<END>
+
+#WRITE(PTR, $00000966)
+"E-everyone disappeared just now, right!?"
+<END>
+
+#WRITE(PTR, $00000980)
+"Huh?"
+<END>
+
+#WRITE(PTR, $00000990)
+"You saw it too, right!? Just now, before our very eyes!"
+<END>
+
+#WRITE(PTR, $000009A0)
+Panic took hold as the enormity of what had just happened struck me.
+<END>
+
+#WRITE(PTR, $000009B0)
+Unable to control myself, I grabbed Mayuri by her slender shoulders and shook her.
+<END>
+
+#WRITE(PTR, $00000A000)
+"Did you see it, Mayuri!? You saw it, right!?"
+<END>
+
+#WRITE(PTR, $00000A2A)
+"Hmmm? Huhhhhh?"
+<END>
+
+#WRITE(PTR, $00000A3A)
+Mayuri's head flopped back and forth from my shaking.
+<END>
+
+#WRITE(PTR, $00000A4A)
+"IIIII diiiiiidn't seeeee anythiiiiing!"
+<END>
+
+#WRITE(PTR, $00000B1C)
+"You... didn't?"
+<END>
+
+#WRITE(PTR, $0000082C)
+I stopped shaking her and looked straight into her eyes
+<END>
+
+#WRITE(PTR, $0000083C)
+She returned my gaze with eyes clear as glass marbles.
+<END>
+
+#WRITE(PTR, $00000B56)
+"You saw nothing? Nothing at all!? There were people here<LINE>a second ago, weren't there!?"
+<END>
+
+#WRITE(PTR, $00000B66)
+"...There were?"
+<END>
+
+#WRITE(PTR, $00000B76)
+"Even the store eomployees are gone! That's impossible by any measure!"
+<END>
+
+#WRITE(PTR, $00000B86)
+"Of course they are..."
+<END>
+
+#WRITE(PTR, $00000B9A)
+Her reply didn't make any sense.
+<END>
+
+#WRITE(PTR, $00000BB4)
+"It was like this when we got here. Oh, I know! You're seeing things, aren't you?"
+<END>
+
+#WRITE(PTR, $00000BC8)
+"I'm sure it's 'cause of the heat! Tutturu!
+<END>
+
+#WRITE(PTR, $00000BD8)
+How could she laugh at a time like this?
+<END>
+
+#WRITE(PTR, $00000BE8)
+I always thought she was a bit strange, but maybe her brain is actually broken.
+<END>
+
+#WRITE(PTR, $00000BCC2)
+I realized that she couldn't help me.
+<END>
+
+#WRITE(PTR, $00000CD2)
+With nowhere else to turn, I looked up at the bright blue sky.
+<END>
+
+#WRITE(PTR, $00000CE2)
+There wasn't a cloud in sight. the scourching summersun<LINE>shone bright through the gas between Akiba's buildings.
+<END>
+
+#WRITE(PTR, $00000CF2)
+Naturally, my eyes drifted to the top floor of Radio Kaikan, where<LINE>I had been just a moment before.
+<END>
+
+#WRITE(PTR, $00000D02)
+There it was. An enormous machine, like some kind of satellite,<LINE>embedded in the roof of the building where, not five minutes before, I<LINE>had found Makise Kurisu's body in a pool of blood.
+<END>
+
+#WRITE(PTR, $00000DE8)
+What happened to her?
+<END>
+
+#WRITE(PTR, $00000DF8)
+Just before everyone disappeared, I could've sworn I heard an ambulance siren.
+<END>
+
+#WRITE(PTR, $00000E02)
+Makise Kurisu might still be in that dark, narrow passageway<LINE> -- cold, bloody, and alone.
+<END>
+
+#WRITE(PTR, $00000E18)
+The thought disturbed me, but the question at the forefront of my<LINE>mind was...
+<END>
+
+#WRITE(PTR, $00000E28)
+"...What the hell is that satellite doing there?"
+<END>
+
+#WRITE(PTR, $00000E38)
+Right before doctor Nakacachi's presentation, the building shook<LINE>like a bomb had exploded. The roof door lock had been broken, and beyond<LINE>it someone had placed a satellite-like machine,<LINE>shrouded in smoke and glowing dust.
+<END>
+
+#WRITE(PTR, $00000E48)
+When I first saw it, the satellite was "one" the rooftop.
+<END>
+
+#WRITE(PTR, $00000EBC)
+But that's not what I was seeing now.
+<END>
+
+#WRITE(PTR, $00000ECC)
+This satellite had penetrated the top floor of the building,<LINE>obliterating the room where Doctor Nakabachi's press conference had been held.
+<END>
+
+#WRITE(PTR, $00000EDC)
+It must have fallen out of orbit without burning up in the stmosphere, somehow.
+<END>
+
+#WRITE(PTR, $00000EEEC)
+I knew it was crazy, but what other explanation could there be?
+<END>
+
+#WRITE(PTR, $00000EFC)
+The real question was....
+<END>
+
+#WRITE(PTR, $00000F0C)
+When did that happen?
+<END>
+
+#WRITE(PTR, $00000F1C)
+"Mayuri, about that satellite..."
+<END>
+#WRITE(PTR, $00000F2C)
+"Yup. What a surprise, huh?"
+<END>
+
+#WRITE(PTR, $00000F3C)
+"What do you mean? What was a surprise?"
+<END>
+
+#WRITE(PTR, $00000F4C)
+"It made a huge 'kaplow' sound!"
+<END>
+
+#WRITE(PTR, $00000F5C)
+A huge 'kaplow'...
+<END>
+
+#WRITE(PTR, $00000F5C)
+It certainly did make a sound.
+<END>
+
+#WRITE(PTR, $00000FE2)
+But I don't think it was 'kaplow!'
+<END>
+
+#WRITE(PTR, $00000FFC)
+I'd say it was more like "Zzzzzznnnmmm."
+<END>
+
+#WRITE(PTR, $0000100C)
+"Did that satellite fall out of the sky?"
+<END>
+
+#WRITE(PTR, $0000101C)
+"Did it? Do you think any aliens were on board?"
+<END>
+
+#WRITE(PTR, $0000102C)
+"..."
+<END>
+
+#WRITE(PTR, $0000103C)
+Had I lost my mind?
+<END>
+
+#WRITE(PTR, $0000104C)
+What i had seen didn't match at all with what Mayuri was saying.
+<END>
+
+#WRITE(PTR, $0000105C)
+Suddenly, nothing seemed real. Had I dreamt it all?
+<END>
+
+#WRITE(PTR, $00001076)
+"Hey! You two!"
+<END>
+
+#WRITE(PTR, $00001086)
+just then, a uniformed policeman ran up to us, his expression stern.
+<END>
+
+#WRITE(PTR, $00001096)
+"What do you think you're doing here?<LINE>This area is off-limits. You have to leave."
+<END>
+
+#WRITE(PTR, $000010A6)
+"We're sorry!"
+<END>
+
+#WRITE(PTR, $000010B6)
+"First, my good man -- let's call you 'Officer A' -- <LINE>I have one question!"
+<END>
+
+#WRITE(PTR, $000010C6)
+"Officer A...?"
+<END>
+
+#WRITE(PTR, $000010E0)
+"Thousands of people just vanished! You saw it too, didn't you!?"
+<END>
+
+#WRITE(PTR, $000010F0)
+"What are you talking about? Get out of here!"
+<END>
+
+#WRITE(PTR, $00001100)
+I was quickly losing confidence in my own memories.
+<END>
+
+#WRITE(PTR, $0000111A)
+I decided to tell him about Makise Kurisu and get him<LINE>to call an ambulanc, but before I could--
+<END>
+
+#WRITE(PTR, $00001136)
+"Look, I don't have time for your nonsense."
+<END>
+
+#WRITE(PTR, $00001146)
+The policeman took me by the upper arm and said--
+<END>
+
+#WRITE(PTR, $00001156)
+"No one got stabbed at Radio Kaikan."
+<END>
+
+#WRITE(PTR, $00001166)
+What? How could he say that with such certainty?
+<END>
+
+#WRITE(PTR, $00001186)
+While I was still trying to comprehend the siuation, the policeman<LINE>forcefully led us away.
+<END>
+
+#WRITE(PTR, $00001196)
+We were excorted up to UPX and released.
+<END>
+
+#WRITE(PTR, $000011A6)
+There were people at UPX, like usual.
+<END>
+
+#WRITE(PTR, $000011B6)
+Actually, there were far more people than usual. The place was packed.
+<END>
+
+#WRITE(PTR, $000011C6)
+Just as Officer A had said, Chuo-dori had been blockaded by police,<LINE>so nobody could enter.
+<END>
+
+#WRITE(PTR, $00001270)
+There was nothing we could do, so we headed back to the lab.
+<END>
+
+#WRITE(PTR, $00001298)
+And that brings us to the present.
+<END>
+
+#WRITE(PTR, $000012A8)
+I'm baffled.
+<END>
+
+#WRITE(PTR, $00001310)
+Did the whole hour since the beginning of Nakabachi's<LINE>presentation really happen?
+<END>
+
+#WRITE(PTR, $00001320)
+I check online for any news.
+<END>
+
+#WRITE(PTR, $00001330)
+The net is buzzing about the myserious machine that<LINE>crashed into Radio Kaikan.
+<END>
+
+#WRITE(PTR, $00001340)
+All of the major stations in Tokyo -- even ToTV -- <LINE>are running special bulletins about it.
+<END>
+
+#WRITE(PTR, $0000146E)
+Fortunately, it doesn't look like anyone was hurt,<LINE>but Chuo-dori is till closed off.
+<END>
+
+#WRITE(PTR, $0000147E)
+Akihabara Station is jammed with reporters and curious onlookers.
+<END>
+
+#WRITE(PTR, $0000148E)
+Nobody has mentioned anything about the disappearance of thousands of people<LINE>from Akiba's streets, nor about Makise Kurisu's murder.
+<END>
+
+#WRITE(PTR, $0000149E)
+It's alla mystery.
+<END>
+
+#WRITE(PTR, $000014AE)
+...A mystery?
+<END>
+
+#WRITE(PTR, $000014C6)
+"I see... so that's it!"
+<END>
+
+#WRITE(PTR, $000014D6)
+From the sofa I spring to my feet, a wide grin on my face.
+<END>
+
+#WRITE(PTR, $00001516)
+Daru and Mayuri turn and stare.
+<END>
+
+#WRITE(PTR, $00001526)
+"This is all an elaborate coverup by the Organization! Their influence has corrupted local<LINE>law enforcement, which means our entire gverment may already be under<LINE>their control. My god!"
+<END>
+
+#WRITE(PTR, $00001536)
+"but they underestimated me, for I am not so easily played.<LINE>One day I will expose their deeds and put an nd to thier reign!"
+<END>
+
+#WRITE(PTR, $000015AC)
+Having come to a satisfactory conclusion, I take a celebratory bottle of Dr P<LINE>-- my favorite soda -- from the fridge.
+<END>
+
+#WRITE(PTR, $000015C8)
+The lab has no air conditioning. Ice cold drinks are essential.
+<END>
+
+#WRITE(PTR, $000015D8)
+"Ah, Elixir intellectualis, a drink fit for a genius!"
+<END>
+
+#WRITE(PTR, $000015F0)
+"Cola's better."
+<END>
+
+#WRITE(PTR, $00001600)
+"okarin really loves his Dr P!"
+<END>
+
+#WRITE(PTR, $00001610)
+"I pity the man who knows not hte freatness of this beverage!<LINE>Muhahaha!"
+<END>
+
+#WRITE(PTR, $00001620)
+Step through the curtain dividing its center, and you'll enter the<LINE>heart of the Future Gadget Laboratory: the development room.
+<END>
+
+#WRITE(PTR, $00001630)
+Just as the name implies, this is the room where we<LINE>develop Future Gadgets. Needless to say, it is strictly off-limits to outsiders.
+<END>
+
+#WRITE(PTR, $00001696)
+Yes, I know the setup is cheap -- I would much rather have<LINE>an airlock than a curtain -- but our research budget is already<LINE>scraping the bottom of the barrel.
+<END>
+
+#WRITE(PTR, $000016A6)
+Besides, what's important isn't money. It's ambition.
+<END>
+
+#WRITE(PTR, $000016B6)
+I poke Daru and bid him follow me into the development room.
+<END>
