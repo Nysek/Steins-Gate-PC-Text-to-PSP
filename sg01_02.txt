@@ -1,4 +1,4 @@
-﻿#VAR(Table, TABLE)
+#VAR(Table, TABLE)
 #ADDTBL("data\shiftjis.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
