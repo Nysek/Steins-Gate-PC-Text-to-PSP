@@ -454,4 +454,4 @@ Besides, what's important isn't money. It's ambition.
 
 #WRITE(PTR, $000016B6)
 I poke Daru and bid him follow me into the development room.
-<END>
+<SG01_02END>
