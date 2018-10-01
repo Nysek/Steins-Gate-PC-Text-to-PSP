@@ -3,6 +3,8 @@ Steins Gate PC script to PSP
 
 
 
+No Longer updated. Please use HaselLoyance's tools for steins gate.
+
 
 The programs you will need are :
 
